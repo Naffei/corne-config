@@ -16,11 +16,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 12>;
         };
-
-        Layered3 {
-            bindings = <&mo 3>;
-            key-positions = <40 30>;
-        };
     };
 
     keymap {
@@ -51,7 +46,7 @@
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6    &kp N7         &kp NUMBER_8  &kp N9     &kp N0    &trans          &kp PAGE_UP
 &trans          &trans        &trans        &trans        &trans  &trans          &trans         &trans        &trans     &trans    &kp UP_ARROW    &kp PAGE_DOWN
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans          &trans         &trans        &trans     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans          &mo 3          &trans        &trans     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
                                             &kp LEFT_GUI  &trans  &kp SPACE       &kp BACKSPACE  &trans        &kp ENTER
             >;
         };
