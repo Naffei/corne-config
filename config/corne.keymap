@@ -14,9 +14,9 @@
 
         Layer3 {
             bindings = <&mo 3>;
-            key-positions = <37 40>;
-            layers = <0>;
-            timeout-ms = <1>;
+            key-positions = <40 37>;
+            timeout-ms = <0>;
+            require-prior-idle-ms = <0>;
         };
     };
 
