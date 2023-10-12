@@ -18,6 +18,11 @@
             timeout-ms = <0>;
             require-prior-idle-ms = <0>;
         };
+
+        ESCa {
+            bindings = <&kp ESCAPE>;
+            key-positions = <36 0>;
+        };
     };
 
     keymap {
