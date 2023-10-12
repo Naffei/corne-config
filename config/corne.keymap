@@ -19,7 +19,7 @@
 
         ESCa {
             bindings = <&kp ESCAPE>;
-            key-positions = <36 0>;
+            key-positions = <0 12>;
         };
     };
 
